@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #2e3641;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 0;
+}
+.container p {
+  margin: 0;
+}
+.navbar p {
+  font-size: 15px;
+  padding-right: 10px;
+}
+p span {
+  color: #1fbba6;
+}
+.navbar p:hover {
+  color: #1fbba6;
+  cursor: pointer;
+}
+.container-fixed {
+  width: 910px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+  #nav-content {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+}

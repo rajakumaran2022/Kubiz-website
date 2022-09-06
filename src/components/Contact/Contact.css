@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frame {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+}
+.get {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.get hr {
+  background-color: #03c7ac !important;
+  color: #03c7ac !important;
+  border: solid 2px #03c7ac !important;
+  height: 5px !important;
+  width: 100px !important;
+  margin-bottom: 20px;
+}
+.get input {
+  height: 50px;
+  margin-bottom: 1rem;
+  width: 20rem;
+  background-color: #f1f1f1;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+}
+#input {
+    height: 150px;
+    margin-bottom: 1rem;
+    width: 20rem;
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: #03c7ac;
+  color: #ffffff;
+  padding: 8px 0px;
+}
+@media screen and (max-width:800px){
+  .contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .button{
+   width: 20%;
+  }
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.col-md-6 img {
+  width: 45rem;
+  height: 25rem;
+}
+.section {
+  background-color: #f2f2f2;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.content h3 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.content p {
+  width: 30rem;
+}
+.content hr {
+  width: 100px;
+  color: #1fbba6;
+}
+input {
+  height: 30px;
+}
+.content p:hover {
+  color: black;
+}
+@media screen and (max-width: 800px) {
+ 
+}

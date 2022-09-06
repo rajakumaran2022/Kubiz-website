@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.f-bg {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #2e3641;
+  color: #ffffff;
+}
+.footer {
+  font-size: 12px;
+}
+.about {
+  font-size: 12px;
+  width: 20rem;
+}
+.icon p {
+  cursor: pointer;
+  font-size: 22px;
+  padding-right: 10px;
+}
+.links p {
+  line-height: 25px;
+  margin: 0;
+}
+.footer-end {
+  background-color: #242c36;
+  color: #ffffff;
+  font-size: 14px;
+}
+.footer-end span {
+  color: #03c7ac;
+}
+.footer-end1 {
+  background-color: #222;
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+}

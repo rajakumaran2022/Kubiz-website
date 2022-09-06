@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading h3 {
+  font-weight: 700;
+}
+.arrow {
+  position: absolute;
+  left: 78%;
+}
+.backward {
+  background-color: #f1f1f1;
+  color: #ffffff;
+  width: 20px;
+  padding-bottom: 7px;
+  margin-right: 5px;
+}
+.forward {
+  background-color: #1fbba6;
+  color: #ffffff;
+  width: 20px;
+  padding-bottom: 7px;
+}
+.project-section hr {
+  background-color: #03c7ac !important;
+  color: #03c7ac !important;
+  border: solid 2px #03c7ac !important;
+  height: 5px !important;
+  width: 100px !important;
+  position: relative;
+  margin-bottom: 20px;
+}
+.projects {
+    background-color: #f1f1f1;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
